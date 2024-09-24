@@ -1,0 +1,80 @@
+
+.home,
+.withdrew,
+.network {
+  display: flex;
+}
+
+
+
+/* Breadcrumb css */
+.breadcrumb {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ">";
+  padding: 0 5px;
+}
+
+.breadcrumb-item a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.breadcrumb-item a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb-item.active {
+  color: #6c757d;
+}
+
+/* End breadcrumb css */
+
+
+
+
+/* withdrewpage css */
+.withdrewcontainer {
+  overflow-y: auto;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.balance {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.withdrew span {
+  display: flex;
+  align-items: center;
+}
+
+.withdrew .phoneInput {
+  margin-right: 10px; 
+}
+
+.enterbutton:hover , .enterbutton:active {
+  opacity: 0.9;
+  background-color: white;
+  border-color: blue;
+  color: blue;
+}
+.enterbutton { 
+  background-color: white !important; 
+  border-color: black;
+  color: black;
+  height: 35px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  width: 150px;
+  border-radius: 5px;
+}
+
+
+/* end of withdrewpage css */

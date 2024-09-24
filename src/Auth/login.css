@@ -1,0 +1,113 @@
+/* signin css */
+.outside {
+  background-color: #d3e4d1;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+    display: flex;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: white;
+    margin: 40px auto;
+    overflow: hidden;
+    max-width: 900px; 
+    height: 550px ;
+}
+  
+.left {
+  background-color: #d3e4d1;
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.imageContainer img {
+  width: 200px;
+  height: auto;
+}
+
+.textContainer h2 {
+  margin: 20px 0 10px;
+  color: #5b5b5b;
+}
+
+.textContainer p {
+  color: #888;
+}
+
+.right {
+  width: 50%;
+  padding: 40px;
+}
+
+.logoContainer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+.right h1 {
+  font-family: 'Brush Script MT', cursive;
+  color: #333;
+  margin: 0;
+}
+
+Form {
+  display: flex;
+  flex-direction: column;
+}
+
+.forgotPassword {
+  text-align: right;
+  margin-top: 8px;
+  color: #888;
+  font-size: 0.9em;
+}
+.forgotPassword:hover {
+  color: blue;
+}
+
+.customForm .custom-button {
+  margin-top: 20px;
+  /* padding: 10px; */
+  border-radius: 5px;
+  background-color: white;
+  border-color: #000;
+  color: black;
+  cursor: pointer;
+}
+
+.customForm .custom-button:hover {
+  opacity: 0.9;
+  background-color: white;
+  border-color: blue;
+  color: blue;
+}
+
+@media (max-width: 768px) {
+  .container {
+      flex-direction: column;
+      width: 80%;
+      box-shadow: none;
+      border-color: #333;
+      height: 400px;
+  }
+
+  .left {
+      display: none;
+  }
+
+  .right {
+      width: 100%;
+      padding: 20px;
+  }
+}

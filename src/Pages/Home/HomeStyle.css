@@ -1,0 +1,144 @@
+/* styles.css */
+.main-container {
+  margin-top: 20px;
+}
+.picContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pic {
+  max-width: 100%;
+  height: auto;
+}
+.btns-group {
+    display: flex;
+    gap: 10px; 
+    margin-top: 60px;
+  }
+  
+  .btn--theme {
+    background-color: #000 !important;
+    color: #fff; 
+    border: 1px solid black !important;
+    border-radius: 20px !important;
+    padding: 0 40px !important;
+    transition: ease-in !important;
+  }
+  
+.btn--theme:hover {
+    background-color: transparent !important;
+    color: #000 !important;
+    transition: ease-in !important;
+}
+  
+.btn--theme2{
+    color: #000 !important;
+    background-color: #faf9f9 !important;
+    border: 1px solid #000 !important;
+    border-radius: 20px !important;
+    padding: 5px 40px !important;
+}
+  
+.btn--theme2:hover {
+    background-color: #ffa500 !important;
+    color: #fff !important;
+    border-color: #ffff !important;
+    transition: ease-in;
+}
+
+.about {
+    padding: 30px;
+    background-color: #f9f9f9;
+    width: 100% !important;
+  }
+  
+  .heading {
+    font-size: 2rem;
+    color: #060b26; 
+    margin-bottom: 10px;
+    text-align: center;
+    position: relative;
+  }
+.heading::before {
+    content: '';
+    position: absolute;
+    width: 2%;
+    height: 2px;
+    background-color: #060b26;
+    bottom: 0;
+    left: 50%;
+    transition: width 0.3s ease;
+}
+.heading:hover::before {
+    width: 10%;
+    left: 45%;
+}
+  
+  /* .about h3 {
+    font-size: 1.5rem;
+    color: #555; 
+    margin-top: 20px;
+    margin-bottom: 10px;
+  } */
+  
+  .about p {
+    font-size: 1.5rem;
+    color: black; 
+    line-height: 1.6; 
+    text-align: center;
+    padding: 20px;
+  }
+
+  .howitworks{
+    padding: 50px;
+  }
+  
+  .howitworks ul {
+    list-style: none; 
+    padding: 30px;
+  }
+  
+  .howitworks li {
+    margin-bottom: 20px; 
+  }
+  
+  .howitworks li strong {
+    color: #000; 
+  }
+
+  .content-container {
+    box-shadow: none;
+    height: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .image-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  
+  .list-col {
+    padding-left: 20px;
+  }
+
+  
+
+  .content {
+    border-radius: 20px;
+    background-color: #263043;
+    color: #fff;
+    padding: 0 20px;
+    padding-top: 20px;
+  
+  }
+  .newsOpps {
+    overflow-y: auto !important; /* Enable vertical scrolling */
+  }
+
+  
